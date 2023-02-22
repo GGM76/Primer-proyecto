@@ -9,8 +9,17 @@ h2{
     color: blue;
 }
 
+h4{
+    padding: 1%;
+    margin: 2%;
+}
+
 .body1{
-    display: flexbox;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
 }
 
 .header1{
@@ -26,9 +35,14 @@ h2{
     align-content: stretch;
     justify-items: center;
     width: 100%;
+    padding: 20px;
+    margin: 20px;
 }
 .container{
     background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .end1{
