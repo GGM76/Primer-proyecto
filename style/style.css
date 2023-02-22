@@ -1,18 +1,46 @@
-.header1{
-background-color: aqua;
+
+h1{
+    width: 100%;
+    color: brown;
 }
+
+h2{
+    text-align: center;
+    color: blue;
+}
+
 .body1{
+    display: flexbox;
+}
+
+.header1{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: flex-start;
+}
+
+#head1{
+    display: grid;
+    align-content: stretch;
+    justify-items: center;
+    width: 100%;
+}
+.container{
     background-color: red;
 }
 
 .end1{
     background-color: blueviolet;
 }
+
 .img-redonda{
     width: 60px;
     height: 60px;
     border-radius: 300px;
 }
+
 .logo{
     border-radius: 150px;
 }
