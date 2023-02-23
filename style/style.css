@@ -16,6 +16,19 @@ body {
     font-family: "Sofia", sans-serif;
 }
 
+button{
+    background-color: DodgerBlue;
+    color: azure;
+    border-radius: 50px;
+    height: 30px;
+    width: 100%;
+
+}
+
+button:hover{
+    background-color: blue;
+}
+
 .body1{
     display: inline-flex;
     justify-content: center;
