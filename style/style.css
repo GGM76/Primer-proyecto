@@ -25,6 +25,9 @@ button{
 
 }
 
+footer{
+    background-color: brown;
+}
 button:hover{
     background-color: blue;
 }
@@ -41,6 +44,7 @@ button:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: aqua;
 }
 
 .container{
@@ -61,6 +65,7 @@ button:hover{
     border-radius: 300px;
     padding: 1%;
     margin: 1%;
+    padding: 10px;
 }
 
 .logo{
